@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import ImmutableDemo from './component/ImmutableDemo';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import ErrorBoundary from './component/ErrorBoundary';
+// import ErrorComponent from './component/ErrorBoundary/ErrorComponent';
+// import Counter from './component/Counter';
+// import Lifecycle from './component/Lifecycle';
+// import JSXDemo from './component/JSXDemo';
+
+
+class App extends Component {
+
+
+  render() {
+    console.log('App render...');
+
+    return (
+      <div className="App">
+        {/* <ErrorBoundary> */}
+        {/* <ErrorComponent /> */}
+        {/* </ErrorBoundary> */}
+        {/* <Context.Provider value={this.state.defaultContext}> */}
+        {/* </Context.Provider> */}
+        {/* <Lifecycle /> */}
+        {/* <JSXDemo /> */}
+        <ImmutableDemo />
+      </div>
+    );
+  }
+
 }
 
 export default App;
