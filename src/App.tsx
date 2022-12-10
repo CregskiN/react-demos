@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+
+/**
+ * State hook
+ *  useState
+ * Effect hook
+ *  useEffect
+ * 自定义 hook
+ *  在不同组件之间，重用相同的状态逻辑，类似的有 HOC 和 render props
+ * 其他 hook
+ *  useContext
+ *  useReducer
+ */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>sss</>
   );
 }
 
