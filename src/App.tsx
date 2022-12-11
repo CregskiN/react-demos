@@ -1,6 +1,12 @@
 import React, { useState, useCallback, useReducer, useMemo, useRef, forwardRef, useImperativeHandle, useEffect, useDebugValue } from 'react';
 
 /**
+ * useState(defaultValue)
+ * useState(() => {}) 只在首次渲染调用函数
+ */
+
+
+/**
  * useReducer
  * what：
  *  面对复杂 state 的一种替代方案
